@@ -1,0 +1,248 @@
+/*estilos generales en todos los archivos he index*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*estilos generales para header*/
+
+#header {
+    width: 100%;
+    height: 255px;
+    position: fixed;
+    top: 0;
+    background-color: seashell;
+}
+
+
+/*estilos para link*/
+
+.link {
+    width: 90px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    font: bold 15px 'Courier New', Courier, monospace;
+    color: black;
+    background: gainsboro;
+    float: left;
+    position: relative;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.link:hover {
+    background: grey;
+    border-radius: 5px 5px 0 0;
+    color: whitesmoke;
+}
+
+
+/*estilos para secction*/
+
+section {
+    height: 100%;
+    width: 80%;
+    margin-top: 20px;
+    background: white;
+    float: right;
+    text-align: left;
+}
+
+
+/*estilos enlaces aside*/
+
+aside ul {
+    text-align: left;
+    font-size: 17px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+/*estilos para la cabecera de la pagina*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 45% 14% 14% 14%;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+
+/*estilos para las img de la cabecera de la pagina*/
+
+.logo {
+    grid-row: 1 / 4;
+}
+
+.logo img {
+    width: 500px;
+    height: 220px;
+}
+
+.text1 img {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+/*transicion que al pasar el raton rota la imagen*/
+
+.text1:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.text2 img {
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+}
+
+.text2:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+.text3 img {
+    width: 100%;
+    height: 50px;
+    margin-top: 65px;
+}
+
+.text3:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
+
+/*estilos para reloj*/
+
+.reloj {
+    width: 120px;
+    height: 30px;
+    margin-top: -6px;
+    margin-right: 5px;
+    font: bold 1.5em 'Courier New', Courier, monospace;
+    color: black;
+    float: right;
+    position: relative;
+}
+
+.reloj:hover {
+    background: grey;
+    border-radius: 5px 5px 0 0;
+    color: whitesmoke;
+}
+
+
+/*estilos para contenido de index*/
+
+.contenido1 {
+    width: 100%;
+    padding: 20px;
+    max-width: 50%;
+    margin: 5px auto;
+    display: block;
+}
+
+
+/*etilos para contenido */
+
+.contenido {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin: 240px auto auto;
+    display: block;
+    margin-right: 100%;
+}
+
+
+/*estilos para titulo principal*/
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*estilos para parrafos*/
+
+p {
+    /*separacion entre lineas*/
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+}
+
+
+/*estilos para imagen de section index*/
+
+.manocam img {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    margin-left: 25%;
+}
+
+.manocam:hover {
+    filter: sepia(60%);
+}
+
+
+/*estilos para footer*/
+
+footer p {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gainsboro;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border-top-style: ridge;
+}
+
+
+/*adaptacion a pantallas mas pequeñas*/
+
+@media screen and (max-width:800px) {
+    .reloj {
+        font-size: 13px;
+    }
+    aside ul {
+        font-size: 13px;
+        width: 110px;
+        height: 140px;
+    }
+    .text1,
+    .text2,
+    .text3 {
+        visibility: hidden;
+    }
+}

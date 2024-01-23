@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Javier Villalba">
+    <title>Fotografia para todos</title>
+    <!--archivos externos que utiliza html para realizar funiciones-->
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+
+</head>
+
+<body onload="function()">
+
+    <header>
+        <!--logo de la pagina-->
+        <div class="grid-container">
+            <div class="logo"><img src="img/portada.png" alt=""></div>
+            <div class="text1"><img src="img/descubre.png" alt=""></div>
+            <div class="text2"><img src="img/aprende.png" alt=""></div>
+            <div class="text3"><img src="img/disfruta.png" alt=""></div>
+        </div>
+
+        <!--reloj-->
+        <div id="reloj" class="reloj"></div>
+
+        <!--menu de navegacion-->
+        <nav class="menu">
+            <ul class="font1" id="myUL">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="principios.html">Principios básicos</a></li>
+                <li><a href="tecnicas.html">Técnicas fotográficas</a></li>
+                <li><a href="tipos.html">Tipos de cámaras</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--contador de numeros de link-->
+    <article class="link">
+        Número de links: <label id="num_link"></label>
+    </article>
+
+    <!--seccion donde se recoge la informacion de la pagina-->
+    <article class="contenido1">
+        <h1>Saca tu imaginación y hazla inmortal</h1><br>
+        <p>Si te gusta la fotografía o simplemente te gustaría iniciarte y saber cómo sacarle partido a tu cámara, te invito a que pases y veas el maravilloso mundo la fotografía.</p><br>
+        <p>Aquí te mostraremos, desde los principios básicos en los que se fundamenta, técnicas fotográficas, tipos de cámaras y su funcionamiento o qué tipo de cámara es más conveniente para ti.</p><br>
+        <div class="manocam"><img src="img/brazo-camara.png" alt=""></div>
+        <p>Veras que, aunque parece un mundo para profesionales, con unas pocas técnicas, podrás ver resultados muy interesantes.</p><br>
+        <p>Aprende a controlar el principio básico en el que se fundamenta la fotografía, la luz. Saber controlarla y manejarla a tu antojo, será la clave de una buena toma.</p><br>
+        <p>Podrás ver los diferentes estilos de fotografía; paisaje, urbano, naturaleza, macro, estudio, bodas… y elegir cual de ellos te motivan más o se acerca más a tu gusto o estilo.</p><br>
+        <p>Cuando hayas aprendido los principios y conocer el manejo, es hora de elegir cámara. Aunque hay un mercado muy genérico, cada dispositivo está enfocado para un tipo de uso y usuario, que, en muchas ocasiones, hasta para el fotógrafo profesional,
+            puede llegar a cambiar mucho.</p>
+    </article>
+
+    <!--informacion de pie de pagina-->
+    <footer>
+        <div>
+            <p>&copy; 2020 Javier Villalba</p>
+        </div>
+    </footer>
+
+    <!--script para contara recoger las funciones-->
+    <script src="js/funciones.js"></script>
+</body>
+
+</html>

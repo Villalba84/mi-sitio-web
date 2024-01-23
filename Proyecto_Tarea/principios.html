@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Javier Villalba">
+    <title>Fotografia para todos</title>
+    <!--archivos externos que utiliza html para realizar funiciones-->
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/principios.css">
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <!--logo de la pagina-->
+        <div class="grid-container">
+            <div class="logo"><img src="img/portada.png" alt=""></div>
+            <div class="text1"><img src="img/descubre.png" alt=""></div>
+            <div class="text2"><img src="img/aprende.png" alt=""></div>
+            <div class="text3"><img src="img/disfruta.png" alt=""></div>
+        </div>
+
+        <!--reloj-->
+        <div id="reloj" class="reloj"></div>
+
+        <!--menu de navegacion-->
+        <nav class="menu">
+            <ul class="font1">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="principios.html">Principios básicos</a></li>
+                <li><a href="tecnicas.html">Técnicas fotográficas</a></li>
+                <li><a href="tipos.html">Tipos de cámaras</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--seccion donde se recoge la informacion de la pagina-->
+    <section>
+        <article class="contenido">
+            <a name="conceptos" id="conceptos"></a>
+            <!--anclas de enlace en la misma pagina para h1-->
+            <h1>Empecemos con los conceptos básicos de las opciones de una cámara</h1><br>
+            <p>Todo en fotografía gira alrededor de la luz. La cámara cuenta con diferentes controles para determinar el modo en que la recoge. Si no lo tienes del todo claro, echa un vistazo:</p><br>
+
+            <!--anclas de enlace en la misma pagina para h2-->
+            <a name="apertura" id="apertura"></a>
+            <h2>- Apertura del Diafragma:</h2><br>
+            <p>Podemos decir, que la apertura es uno de esos controles mágicos. Controlar la profundidad de campo de nuestra foto.</p>
+            <p>Si no lo sabes, la profundidad de campo, es la distancia por delante y por detrás del punto enfocado que aparece con nitidez.</p>
+            <p>La abertura se mide en valores F que suelen tener apriori valores como: 2.8, 3.5, 4.6..</p><br>
+            <!--imagen apertura-->
+            <div class="apertura"><img src="img/apertura.png" alt=""></div><br>
+
+            <!--anclas de enlace en la misma pagina para h2-->
+            <a name="exposicion" id="exposisicion"></a>
+            <h2>- Tiempo de exposición:</h2><br>
+            <p>Es con lo medimos la velocidad de exposición, es el tiempo que la lente va ha permanecer abierta durante la toma de la fotografía.</p>
+            <p>Está puede variar entre milésimas de segundo hasta varios segundos, entre menos velocidad de exposición se tenga, mayor será la luz que captara la cámara.</p>
+            <p>El problema que se presenta al dejar una velocidad de exposición muy lenta es que de haber movimiento en la foto está saldrá borrosa, por lo que se debe intentar mantener fija la cámara para lograr una imagen con una buena nitidez, esto se
+                puede lograr a través del uso de un trípode u otro tipo de accesorio.</p>
+            <p>El buscar el equilibrio entre estos tres aspectos hará que tus fotografías salgan de una mejor calidad y que cada vez vayas mejorando tu material.</p>
+            <p>El tiempo de exposición se mide en fracciones de segundo; 1/100s hace referencia a una centésima de segundo y 30s, indica 30 segundos de exposición, es decir, que el obturador está abierto durante medio minuto dejando pasar la luz.</p>
+            <p>Durante el tiempo que el obturador está abierto, la imagen sigue impresionándose sobre el sensor, de manera que el resultado final será totalmente diferente de un tiempo de exposición de 1/100s a otro de 30s.</p><br>
+            <!--imagen tiempo-->
+            <div class="tiempo"><img src="img/tiempo.png" alt=""></div><br>
+
+            <!--anclas de enlace en la misma pagina para h2-->
+            <a name="iso" id="iso"></a>
+            <h2>- Sensibilidad ISO:</h2><br>
+            <p>La sensibilidad ISO es la capacidad que posee el sensor para captar luz.</p>
+            <p>En cuanto más alto sea el valor del ISO, más luz logrará captar el sensor. Al leer esto es lógico pensar que lo mejor es siempre tener un ISO alto para poder captar más luz, el problema con manejar un valor muy grande es el ruido que causa
+                por lo que se debe buscar un equilibrio entre este y los siguientes aspectos.</p>
+            <p>El ruido, o ruido digital, se puede definir como la aparición aleatoria de “rastros” y de variaciones del brillo o del color en la fotografía digital.</p>
+            <p>Estos rastros, suelen presentarse en la mayoría de los casos como puntos de tamaño variable, pero también se pueden considerar otros artefactos producidos en los degradados de color, etc, incluso algún tipo de aberración cromática.</p><br>
+            <!--imagen iso-->
+            <div class="iso"><img src="img/iso.png" alt=""></div><br>
+        </article>
+    </section>
+
+    <!--menu de navegacion por la pagina-->
+    <aside id="aside1">
+        <ul>
+            <li><a href="#conceptos">Inicio pagina</a></li>
+            <li><a href="#apertura">Apertura del Diafragma</a></li>
+            <li><a href="#exposicion">Tiempo de exposición</a></li>
+            <li><a href="#iso">Sensibilidad ISO</a></li>
+        </ul>
+    </aside>
+
+    <!--informacion de pie de pagina-->
+    <footer>
+        <div>
+            <p>&copy; 2020 Javier Villalba</p>
+        </div>
+    </footer>
+</body>
+
+</html>

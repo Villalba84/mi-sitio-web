@@ -1,0 +1,66 @@
+/*estilos para aside principios basicos*/
+
+#aside1 {
+    width: 195px;
+    height: 95px;
+    position: fixed;
+    margin-top: 300px;
+    background: ghostwhite;
+    float: left;
+    display: flex;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-radius: 0 0 10px 0;
+}
+
+
+/*transicion al pasar el raton, se produce opacidad*/
+
+#aside1 a:hover {
+    filter: opacity(.5);
+}
+
+
+/*estilos para img apertura*/
+
+.apertura img {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin-right: 10%;
+}
+
+
+/*estilos para img tiempo*/
+
+.tiempo img {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin-right: 10%;
+}
+
+
+/*estilos para img iso*/
+
+.iso img {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    margin-right: 10%;
+}
+
+
+/*adaptacion a patallas mas pequeñas*/
+
+@media screen and (max-width:800px) {
+    #aside2 {
+        width: 110px;
+        height: 140px;
+    }
+    #aside1 {
+        width: 110px;
+        height: 140px;
+    }
+}

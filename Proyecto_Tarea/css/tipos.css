@@ -1,0 +1,74 @@
+/*estilos aside de tipos de camaras*/
+
+#aside3 {
+    width: 225px;
+    height: 135px;
+    position: fixed;
+    margin-top: 300px;
+    background: ghostwhite;
+    float: left;
+    display: flex;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-radius: 0 0 10px 0;
+}
+
+
+/*transicion al pasar el raton, se produce opacidad*/
+
+#aside3 a:hover {
+    filter: opacity(.5);
+}
+
+
+/*estilos para el comtenido*/
+
+.contenido h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.contenido ul {
+    margin-left: 40px;
+    /*separacion entre lineas*/
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+}
+
+
+/*estilos paara imagenes en general*/
+
+.compacta img,
+.sinEspejo img,
+.medio img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.reflex img {
+    width: 40%;
+    height: 50%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/*dimensionado para patallas mas pequeñas*/
+
+@media screen and (max-width:800px) {
+    #aside3 {
+        font-size: 13px;
+        width: 150px;
+        height: 155px;
+    }
+}

@@ -1,0 +1,12 @@
+/*fuente externa para el menu*/
+
+@font-face {
+    font-family: Wishper-Script;
+    font-style: normal;
+    font-weight: normal;
+    src: url(../font/Wishper-Script.ttf);
+}
+
+ul.font1 {
+    font-family: Wishper-Script;
+}

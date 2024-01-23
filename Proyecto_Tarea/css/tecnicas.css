@@ -1,0 +1,66 @@
+/*estilos para aside tecnicas fotograficas*/
+
+#aside2 {
+    width: 180px;
+    height: 155px;
+    position: fixed;
+    margin-top: 300px;
+    background: ghostwhite;
+    float: left;
+    display: flex;
+    border-right-style: ridge;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-radius: 0 0 10px 0;
+}
+
+
+/*transicion al pasar el raton, se produce opacidad*/
+
+#aside2 a:hover {
+    filter: opacity(.5);
+}
+
+
+/*estilos para el contenido*/
+
+.contenido ul {
+    margin-left: 30px;
+    /*separacion entre lineas*/
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+}
+
+
+/*estilos paara imagenes en general*/
+
+.retrato img,
+.paisaje img,
+.naturaleza img,
+.macrofotografia img {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.nocturna img {
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/*adaptacion a pantallas mas reducidas*/
+
+@media screen and (max-width:800px) {
+    #aside2 {
+        width: 110px;
+        height: 140px;
+    }
+}
